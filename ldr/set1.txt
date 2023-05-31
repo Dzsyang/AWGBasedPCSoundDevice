@@ -1,0 +1,79 @@
+/**
+# 使用 /**...**/ 定义模板
+name: wave1  # 模板名
+persist: 1  # 每个波的持续时间
+type: sin  # 波的形式，默认方波（square），可选正弦波（sin）
+volume: 1000  # 音量（振幅）
+waveUnit: hz  # wave的单位
+**/
+
+/**
+name: wave2
+persist: 10
+type: square
+volume: 1000
+waveUnit: ms
+**/
+
+
+/*
+template: wave1
+start: 0
+# wave数据
+wave:
+1, 523  # 表示523hz的信号1
+*/
+
+
+/*
+template: wave1
+start: 1
+# wave数据
+wave:
+1, 587
+*/
+
+
+/*
+template: wave1
+start: 2
+# wave数据
+wave:
+1, 659
+*/
+
+
+/*
+template: wave1
+start: 3
+# wave数据
+wave:
+1, 698
+*/
+
+
+/*
+template: wave1
+start: 4
+# wave数据
+wave:
+1, 784
+*/
+
+
+/*
+template: wave1
+start: 5
+# wave数据
+wave:
+1, 880
+*/
+
+
+/*
+template: wave1
+start: 6
+# wave数据
+wave:
+1, 988
+*/
