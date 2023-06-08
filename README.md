@@ -1,2 +1,2 @@
-# AWG_Based_PC_Sound_Device
+# AWG Based PC Sound Device
 2023PRP Project
